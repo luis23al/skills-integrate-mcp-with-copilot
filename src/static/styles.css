@@ -164,6 +164,22 @@ button:hover {
   background-color: #3949ab;
 }
 
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.filter-row .form-group {
+  flex: 1 1 220px;
+}
+
+.filter-row input,
+.filter-row select {
+  width: 100%;
+}
+
 .message {
   margin-top: 20px;
   padding: 10px;
